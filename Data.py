@@ -4,64 +4,61 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Halo {}
 
-Welcome to {}
-
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
-
-Still reading?
-You can use me to generate pyrogram and telethon string session. Use below buttons to learn more !
-
-By @StarkBots
+━━━━━━━━━━━━━━━━━━━━━━━━
+ {} di buat untuk Membantu anda Untuk Mengambil String Session Telegram dengan Mudah dan AMAN!
+━━━━━━━━━━━━━━━━━━━━━━━━
+Jika anda Tidak Mempercayai Bot ini:
+1. Jangan dibaca Pesan ini
+2. Hapus Pesan dan Blokir Bot ini
+━━━━━━━━━━━━━━━━━━━━━━━━
+Managed With ☕️ By @IdNyaZonk
     """
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
+        [InlineKeyboardButton("🔥**START GENERATING STRING**🔥", callback_data="generate")],
         [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+        [InlineKeyboardButton("🔥**START GENERATING STRING**🔥", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("🔥**START GENERATING STRING**🔥", callback_data="generate")],
+        [InlineKeyboardButton("⚡**JOIN FRDS PROJECT**⚡", url="https://t.me/frdsproject")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("Help & Commands", callback_data="help"),
+            InlineKeyboardButton("About", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("⚡**GROUP SUPPORT**⚡", url="https://t.me/frdssupport")],
     ]
 
     # Help Message
     HELP = """
-✨ **Available Commands** ✨
+✨ Perintah Yang Tersedia
 
-/about - About The Bot
-/help - This Message
-/start - Start the Bot
-/generate - Start Generating Session
-/cancel - Cancel the process
-/restart - Cancel the process
+ × /start - Mulai Bot
+ × /about - Tentang Bot ini
+ × /ping - Untuk Mengecek Ping Bot
+ × /id - Untuk Mendapatkan User ID
+ × /generate - Mulai Pengambilan String
+ × /cancel - Membatalkan Proses Pengambilan String
+ × /restart - Merestart Proses Pengambilan String
 """
 
     # About Message
     ABOUT = """
-**About This Bot** 
+Tentang Bot ini:
 
-A telegram bot to generate pyrogram and telethon string session by @StarkBots
+{} di buat untuk Membantu anda Untuk Mengambil String Session Telegram dengan Simple dan Mudah!
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
+ • Group Support: @frdssupport
+ • Framework: Pyrogram
+ • Language: Python
 
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Developer : @StarkProgrammer
+👨‍💻 Develoved by @IdNyaZonk
     """
