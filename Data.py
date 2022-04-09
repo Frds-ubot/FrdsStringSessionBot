@@ -4,18 +4,17 @@ from pyrogram.types import InlineKeyboardButton
 class Data:
     # Start Message
     START = """
-Hey {}
+Halo {}
 
 Welcome to {}
-
-If you don't trust this bot, 
-1) stop reading this message
-2) delete this chat
-
-Still reading?
-You can use me to generate pyrogram and telethon string session. Use below buttons to learn more !
-
-By @StarkBots
+━━━━━━━━━━━━━━━━━━━━━━━━
+ {} di buat untuk Membantu anda Untuk Mengambil String Session Telegram dengan Mudah dan AMAN!
+━━━━━━━━━━━━━━━━━━━━━━━━
+Jika anda Tidak Mempercayai Bot ini:
+1. Jangan dibaca Pesan ini
+2. Hapus Pesan dan Blokir Bot ini
+━━━━━━━━━━━━━━━━━━━━━━━━
+Managed With ☕️ By @IdNyaZonk
     """
 
     # Home Button
@@ -55,7 +54,7 @@ By @StarkBots
     ABOUT = """
 **About This Bot** 
 
-A telegram bot to generate pyrogram and telethon string session by @StarkBots
+A telegram bot to generate pyrogram and telethon string session by @IdNyaZonk
 
 Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
 
