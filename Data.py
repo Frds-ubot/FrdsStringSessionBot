@@ -18,23 +18,23 @@ Managed With ☕️ By @IdNyaZonk
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔥**START GENERATING STRING**🔥", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴛʀɪɴɢ", callback_data="generate")],
+        [InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥**START GENERATING STRING**🔥", callback_data="generate")]
+        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴛʀɪɴɢ", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥**START GENERATING STRING**🔥", callback_data="generate")],
-        [InlineKeyboardButton("⚡**JOIN FRDS PROJECT**⚡", url="https://t.me/frdsproject")],
+        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴛʀɪɴɢ", callback_data="generate")],
+        [InlineKeyboardButton("⚡ᴊᴏɪɴ ꜰʀᴅs ᴘʀᴏᴊᴇᴄᴛ⚡", url="https://t.me/frdsproject")],
         [
-            InlineKeyboardButton("Help & Commands", callback_data="help"),
-            InlineKeyboardButton("About", callback_data="about")
+            InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("⚡**GROUP SUPPORT**⚡", url="https://t.me/frdssupport")],
+        [InlineKeyboardButton("🔥ɢʀᴏᴜᴘ sᴜᴘᴘᴏʀᴛ"🔥, url="https://t.me/frdssupport")],
     ]
 
     # Help Message
@@ -54,7 +54,7 @@ Managed With ☕️ By @IdNyaZonk
     ABOUT = """
 Tentang Bot ini:
 
-{} di buat untuk Membantu anda Untuk Mengambil String Session Telegram dengan Simple dan Mudah!
+ {} di buat untuk Membantu anda Untuk Mengambil String Session Telegram dengan Simple dan Mudah!
 
  • Group Support: @frdssupport
  • Framework: Pyrogram
