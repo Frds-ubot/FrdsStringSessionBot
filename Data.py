@@ -34,7 +34,7 @@ Managed With ☕️ By @IdNyaZonk
             InlineKeyboardButton("HELP & COMMANDS", callback_data="help"),
             InlineKeyboardButton("ABOUT", callback_data="about")
         ],
-        [InlineKeyboardButton("🔥GROUP SUPPORT"🔥, url="https://t.me/frdssupport")],
+        [InlineKeyboardButton("🔥GROUP SUPPORT🔥", url="https://t.me/frdssupport")],
     ]
 
     # Help Message
