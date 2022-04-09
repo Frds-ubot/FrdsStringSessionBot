@@ -8,7 +8,7 @@ Halo {}
 
 Welcome to {}
 ━━━━━━━━━━━━━━━━━━━━━━━━
- {} di buat untuk Membantu anda Untuk Mengambil String Session Telegram dengan Mudah dan AMAN!
+{} di buat untuk Membantu anda Untuk Mengambil String Session Telegram dengan Mudah dan AMAN!
 ━━━━━━━━━━━━━━━━━━━━━━━━
 Jika anda Tidak Mempercayai Bot ini:
 1. Jangan dibaca Pesan ini
@@ -19,48 +19,45 @@ Managed With ☕️ By @IdNyaZonk
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton(text="🏠 Return Home 🏠", callback_data="home")]
+        [InlineKeyboardButton("🔥 sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴛʀɪɴɢ 🔥", callback_data="generate")],
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+        [InlineKeyboardButton("🔥 sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴛʀɪɴɢ 🔥", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
-        [InlineKeyboardButton("✨ Bot Status and More Bots ✨", url="https://t.me/StarkBots/7")],
+        [InlineKeyboardButton("🔥 sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴛʀɪɴɢ 🔥", callback_data="generate")],
         [
-            InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton("🎪 About 🎪", callback_data="about")
+            InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
+            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
         ],
-        [InlineKeyboardButton("♥ More Amazing bots ♥", url="https://t.me/StarkBots")],
+        [InlineKeyboardButton("ɢʀᴏᴜᴘ sᴜᴘᴘᴏʀᴛ url="https://t.me/frdssupport")],
     ]
 
     # Help Message
     HELP = """
-✨ **Available Commands** ✨
+✨ Perintah Yang Tersedia
 
-/about - About The Bot
-/help - This Message
-/start - Start the Bot
-/generate - Start Generating Session
-/cancel - Cancel the process
-/restart - Cancel the process
+ × /start - Mulai Bot
+ × /about - Tentang Bot ini
+ × /ping - Untuk Mengecek Ping Bot
+ × /id - Untuk Mendapatkan User ID
+ × /generate - Mulai Pengambilan String
+ × /cancel - Membatalkan Proses Pengambilan String
+ × /restart - Merestart Proses Pengambilan String
 """
 
     # About Message
     ABOUT = """
-**About This Bot** 
+Tentang Bot ini:
 
-A telegram bot to generate pyrogram and telethon string session by @IdNyaZonk
+{} di buat untuk Membantu anda Untuk Mengambil String Session Telegram dengan Simple dan Mudah!
 
-Source Code : [Click Here](https://github.com/StarkBotsIndustries/StringSessionBot)
+ • Group Support: @frdssupport
+ • Framework: Pyrogram
+ • Language: Python
 
-Framework : [Pyrogram](docs.pyrogram.org)
-
-Language : [Python](www.python.org)
-
-Developer : @StarkProgrammer
+👨‍💻 Develoved by @IdNyaZonk
     """
