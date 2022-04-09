@@ -18,23 +18,23 @@ Managed With ☕️ By @IdNyaZonk
 
     # Home Button
     home_buttons = [
-        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴛʀɪɴɢ", callback_data="generate")],
-        [InlineKeyboardButton(text="ᴋᴇᴍʙᴀʟɪ", callback_data="home")]
+        [InlineKeyboardButton("START GENERATING STRING", callback_data="generate")],
+        [InlineKeyboardButton(text="kembali", callback_data="home")]
     ]
 
     generate_button = [
-        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴛʀɪɴɢ", callback_data="generate")]
+        [InlineKeyboardButton("START GENERATING STRING", callback_data="generate")]
     ]
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("sᴛᴀʀᴛ ɢᴇɴᴇʀᴀᴛɪɴɢ sᴛʀɪɴɢ", callback_data="generate")],
-        [InlineKeyboardButton("⚡ᴊᴏɪɴ ꜰʀᴅs ᴘʀᴏᴊᴇᴄᴛ⚡", url="https://t.me/frdsproject")],
+        [InlineKeyboardButton("START GENERATING STRING", callback_data="generate")],
+        [InlineKeyboardButton("⚡JOIN FRDS PROJECT⚡", url="https://t.me/frdsproject")],
         [
-            InlineKeyboardButton("ʜᴇʟᴘ & ᴄᴏᴍᴍᴀɴᴅs", callback_data="help"),
-            InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data="about")
+            InlineKeyboardButton("HELP & COMMANDS", callback_data="help"),
+            InlineKeyboardButton("ABOUT", callback_data="about")
         ],
-        [InlineKeyboardButton("🔥ɢʀᴏᴜᴘ sᴜᴘᴘᴏʀᴛ"🔥, url="https://t.me/frdssupport")],
+        [InlineKeyboardButton("🔥GROUP SUPPORT"🔥, url="https://t.me/frdssupport")],
     ]
 
     # Help Message
